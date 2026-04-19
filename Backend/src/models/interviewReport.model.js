@@ -102,4 +102,4 @@ const interviewReportSchema = new mongoose.Schema({
 
 const interviewReportModel = mongoose.model("interviewReport", interviewReportSchema)
 
-module.export = interviewReportModel; 
+module.exports = interviewReportModel; 
